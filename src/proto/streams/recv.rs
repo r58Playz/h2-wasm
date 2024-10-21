@@ -8,7 +8,7 @@ use http::{HeaderMap, Request, Response};
 use std::cmp::Ordering;
 use std::io;
 use std::task::{Context, Poll, Waker};
-use std::time::Instant;
+use instant::Instant;
 
 #[derive(Debug)]
 pub(super) struct Recv {
